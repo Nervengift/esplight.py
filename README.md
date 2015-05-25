@@ -9,6 +9,7 @@ python3, PIL (python-pillow)
 Configuration
 =============
 * flash [nodemcu](https://github.com/nodemcu/nodemcu-firmware) to your ESP (The firmware needs the WS2812 module enabled, but this is the default as of version 0.9.6-dev)
+  * optional: [build it yourself](https://gist.github.com/Nervengift/12d342f7a661b3b9c0d9)
 * configure your wifi settings in *init.lua*
 * if you want to get notifications for button presses as UDP packages, configure your IP in line 7 of *init.lua* (else you can delete everything from line 6 down)
 * push *init.lua* to your ESP (e.g. using [nodemcu-uploader](https://github.com/kmpm/nodemcu-uploader))
