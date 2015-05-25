@@ -1,6 +1,6 @@
 ESPLight.py
 ===========
-A script controlling the ESPLight, an ESP8266 and WS2812 based, wifi enabled LED matrix.
+A script controlling the [ESPLight](https://github.com/ChaosDarmstadt/esp8266), an ESP8266 and WS2812 based, wifi enabled LED matrix.
 
 Dependencies
 ============
